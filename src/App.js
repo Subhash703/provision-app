@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Home from "./components/Home";
 import LoginForm from "./components/LoginForm";
@@ -12,7 +13,9 @@ function App() {
 				</small>
 				<LoginForm />
 			</div> */}
-			<Home />
+			<div className="home_wrapper">
+				<Home />
+			</div>
 		</div>
 	);
 }

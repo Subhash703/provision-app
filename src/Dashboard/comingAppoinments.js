@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./comingAppoinment.module.css";
 import { Card, List, message, Avatar, Spin, Button } from "antd";
 import Icon from "@ant-design/icons";
-import { HomeIcon, CalendarIcon, ClientIcon } from "../../assets/svg/Icons";
+// import { HomeIcon, CalendarIcon, ClientIcon } from "../../assets/svg/Icons";
 // import InfiniteScroll from "react-infinite-scroller";
 
 function ComingAppoinments(props) {
@@ -60,9 +60,7 @@ function ComingAppoinments(props) {
 					Upcoming ComingAppoinments <br />
 					<small>7 days</small>
 				</h4>
-				<div className={styles.actionBtn}>
-					<HomeIcon />
-				</div>
+				<div className={styles.actionBtn}>{/* <HomeIcon /> */}</div>
 			</div>
 			<div className={styles.card_content}>
 				<div className={styles.card_item}>

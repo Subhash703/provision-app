@@ -39,7 +39,7 @@ function TodaysAppoinment(props) {
 			</div>
 			<div className={styles.card_content}>
 				{appoinments.length < 1 ? (
-					<NoAppoinment className={styles.no_appoinment__container} />
+					<NoAppoinment />
 				) : (
 					appoinments.map((item) => {
 						return (

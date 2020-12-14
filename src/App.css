@@ -3,12 +3,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url("./cardbg.svg");
+	/* background: url("./cardbg.svg"); */
 	background-size: contain;
 	background-position: 50% 60%;
 	background-repeat: no-repeat;
 }
-
+.home_wrapper {
+	max-width: 1440px;
+	width: calc(100%);
+	margin: 0 auto;
+}
 .loginCard {
 	max-width: 520px;
 	width: 100%;
