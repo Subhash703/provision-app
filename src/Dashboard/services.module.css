@@ -1,0 +1,16 @@
+.card {
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 5px 5px 10px #dae2ed;
+}
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #5e5b5b91;
+}
+.actionBtn {
+	height: 20px;
+	width: 20px;
+	border: 1px solid #000;
+}
