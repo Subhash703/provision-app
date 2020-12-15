@@ -3,8 +3,6 @@
 	background-color: #fff;
 	box-shadow: 5px 5px 10px #dae2ed;
 	height: 520px;
-	display: flex;
-	flex-direction: column;
 }
 .cardHeader {
 	display: flex;
@@ -20,7 +18,7 @@
 
 /* no_appoinment-container */
 .no_appoinment__container {
-	height: 549px;
+	height: 535px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -30,7 +28,6 @@
 .card_content {
 	height: 100%;
 	display: flex;
-	flex: 1;
 	flex-direction: column;
 	gap: 10px;
 }
